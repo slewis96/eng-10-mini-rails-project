@@ -4,9 +4,4 @@ The purpose of jQuery is to make it much easier to use JavaScript on your websit
 
 Before you start studying jQuery, you should have a basic knowledge of HTML, CSS and JavaScript (check out our pages for these if you haven't already!).
 
-We will cover the following topics:
--Getting Started with jQuery
--jQuery Selectors
--jQuery Events
--DOM/HTML/CSS manipulation
--Effects and animations
+Check out the following jQuery topics to continue.

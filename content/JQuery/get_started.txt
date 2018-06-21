@@ -1,12 +1,7 @@
 Getting Started with jQuery
 
 Adding jQuery to Your Web Pages:
-To start, copy the below script tag into the bottom of the body section of your html file.
-
-<body>
-  // Body Content
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</body>
+To start, copy the script tag in the below image into your html file.
 
 Next, in your js file, you need to add a Document Ready Event. All of your jQuery methods must be inside this as follows:
 
@@ -19,8 +14,8 @@ The jQuery syntax is tailor-made for selecting HTML elements and performing some
 
 Basic syntax is: $(selector).action() which is comprised of:
 
-A $ sign to define/access jQuery
-A (selector) to "query (or find)" HTML elements
-A jQuery action() to be performed on the element(s)
+- A $ sign to define/access jQuery
+- A (selector) to query (or find) HTML elements
+- A jQuery action() to be performed on the element(s)
 
 Find out more in the next topic...
