@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+  color: #000;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+}
+#titlehome{
+  font-weight: bold;
+  text-decoration: underline;
+}
