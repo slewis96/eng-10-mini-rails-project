@@ -1,6 +1,7 @@
 # Learning platform
 ### Developers:
-Ann Cooke,
+Ali Karami,
+Anne Cooke,
 Joseph Cheung,
 Pawan Kumar,
 Sebastian Lewis,
