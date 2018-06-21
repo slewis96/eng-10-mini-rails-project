@@ -1,0 +1,17 @@
+1. git pull
+2. git checkout dev
+3. git checkout -b <name of feature>
+4. do yo stuff (complete whatever you need to)
+5. git add, commit on your feature branch
+6. git checkout dev
+7. git merge <name of feature>
+8. git add, commit on dev
+9. git push
+------
+Once something substantial is completed on dev (e.g. controller)
+9. go to github and then pull request
+10. create a pull request between master and dev
+11. yah boi Seb can confirm this
+
+
+-- by Shown n' Sub
