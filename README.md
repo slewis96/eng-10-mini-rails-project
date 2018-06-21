@@ -1,5 +1,5 @@
 # Learning platform
-###Developers:
+### Developers:
 Ann Cooke,
 Joseph Cheung,
 Pawan Kumar,
