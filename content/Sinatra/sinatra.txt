@@ -1,0 +1,52 @@
+
+Sinatra(a Ruby Gem)
+
+Sinatra is a small light weight web framework written in Ruby. It allows you to make small web applications quickly. Like Ruby-on-Rails, Sinatra is built upon Rack so you can think of it as a bare bones version of Rails. There is no ‘magic’ to speak of as everything is very explicit. This is why learning Sinatra before learning Rails is so beneficial. It reduces the learning curve of learning Rails quite a lot.
+
+Rails vs Sinatra?
+
+They are both solving a different set of issues, even though they indeed overlap. While Rails is a framework focused on writing model driven web applications, Sinatra is a library for dealing with HTTP from the server side. If you think in terms of HTTP requests/responses, Sinatra is the ideal tool. If you need full integration and as much boilerplate as possible, Rails is the way to go.
+
+Why use Sinatra?
+
+Sinatra does a few of the same things that Rails does, but it doesn’t create the file-structure for you. The benefit of doing it yourself (and the main reason we’re learning this at all) is that once you get a feel for how to set up routes and organise your views in Sinatra, the complex file structures and methods in Rails will start to make a whole lot more sense.
+
+Sinatra homepage pic
+
+Routes
+
+In Sinatra, a route is an HTTP method paired with a URL-matching pattern. Each route is associated with a method and a do block (as in the picture to the side). If the specified request (e.g. get, post, delete etc.) is sent to the address given (e.g. '/'), the do loop is performed, usually using instanced variables which can use many types of databases like Postgres. These methods can be used to set up the 7 RESTful Routes to make the router part of a rMVC model.
+
+Routes pic
+
+
+Views
+
+The view is really the simplest part of the MVC structure – at the basic level, it’s just a bunch of HTML boilerplate into which you insert the variables you’ve received from your controller and which will be sent to the browser. It’s your actual “webpage”. It will often have some snippets of code designed to properly present the variables it has received, for instance a loop that will display each one of the posts on your blog. Views are often called view templates.
+
+
+Views live in the directory app/views/controller_name/action_name.html.erb, where controller_name is the name of the controller the view is linked to and action_name.html.erb is the corresponding method inside the controller that was run immediately prior to rendering the view.
+
+
+Rendering in Sinatra
+
+To render a html page in one of your routes you can use the 'erb' (embedded ruby) function. This is how you use the erb files that you create in your views folder.
+
+Render pic
+
+Layouts in Sinatra
+
+Sinatra can use layouts as a basic structure of a site or page. A different layout can be specific but the default is layout.erb.
+
+layoutSinatra pic
+
+Sessions
+
+“Sessions” are the idea that your user’s state is somehow preserved when he/she clicks from one page to the next. Remember, HTTP is stateless, so it’s up to either the browser or your application to “remember” what needs to be remembered.\n\n In practice, this is done by creating things like cookies, which can be implemented in Sinatra similarly to Rails.
+
+Optional??
+
+
+DSL
+
+A domain-specific language (DSL) is somewhere between a tiny programming language and a scripting language, and is often used in a way analogous to a programming library. The boundaries between these concepts are quite blurry, much like the boundary between scripting languages and general-purpose languages.

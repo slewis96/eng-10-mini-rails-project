@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>RailsPosts</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+  </head>
+  <body>
+    <p id="notice"><%= notice %></p>
+    <%= yield %>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.title %></td>
+      </tr>
+    <% end %>
+  </body>
+</html>

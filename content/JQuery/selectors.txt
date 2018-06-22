@@ -1,0 +1,11 @@
+jQuery Selectors:
+
+jQuery selectors are one of the most important parts of the jQuery library - they allow you to select and manipulate HTML elements.
+
+You can select HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some of it's own custom selectors.
+
+All selectors in jQuery start with the dollar sign and parentheses: $().
+
+See the image for more examples.
+
+Now that we have selected the element(s), we can use DOM manipulation and CSS manipulation using jQuery events, covered in the next topic.

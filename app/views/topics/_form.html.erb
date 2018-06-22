@@ -1,0 +1,36 @@
+<h1>Create New Topic</h1>
+
+<%= form_for([@subject, topic]) do |f| %>
+
+<div class="field">
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</div>
+
+<br>
+
+<div class="field">
+  <%= f.label :content %>
+  <%= f.text_area :content %>
+</div>
+
+<br>
+
+<div class="">
+  <%= f.label :timg %>
+  <%= f.text_field :timg %>
+</div>
+
+<br>
+
+<div class="">
+  <%= f.label :subject_id %>
+  <%= f.text_field :subject_id%>
+</div>
+
+<br>
+
+<div class="">
+  <%= f.submit %>
+</div>
+<% end %>

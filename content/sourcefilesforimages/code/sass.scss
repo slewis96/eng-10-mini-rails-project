@@ -1,0 +1,15 @@
+$mainthemered: #e22a2a;
+$mobile: "only screen and (max-width : 600px)";
+
+body{
+  background-color: $mainthemered;
+  @media #{$mobile} {
+    margin: 2%;
+  }
+  h1{
+    font-family: sans-serif;
+  }
+  .title2{
+    @extend h1
+  }
+}

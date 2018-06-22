@@ -1,0 +1,25 @@
+<%= form_for(subject) do |f| %>
+
+<div class="field">
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+</div>
+<br>
+<div class="field">
+  <%= f.label :logo %>
+  <%= f.text_field :logo %>
+</div>
+<br>
+<div class="field">
+  <%= f.label :image %>
+  <%= f.text_field :simg %>
+</div>
+<div class="field">
+  <%= f.label :summary %>
+  <%= f.text_area :summary %>
+</div>
+<br>
+<div class="">
+  <%= f.submit %>
+</div>
+<% end %>
