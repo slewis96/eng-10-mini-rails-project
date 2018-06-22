@@ -1,8 +1,7 @@
-Views example
+Views 
 
 Views live in the directory app/views/controller_name/action_name.html.erb, where controller_name is the name of the controller the view is linked to and action_name.html.erb is the corresponding method inside the controller that was run immediately prior to rendering the view.
 
-Views folder struct pic
 
 Rendering in Sinatra
 
