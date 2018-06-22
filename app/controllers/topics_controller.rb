@@ -1,6 +1,14 @@
 class TopicsController < ApplicationController
   before_action :set_subject
 
+  def new
+    @topic = Topic.new
+  end
+
+  def show
+    @topic = Topic.find(params[:id])
+  end
+
   def create
     @topic = @subject.topics.create(topic_params)
     redirect_to @subject
@@ -15,7 +23,6 @@ class TopicsController < ApplicationController
     @topic.update(topic_params)
     redirect_to @subject
   end
-
 
   def destroy
     @topic = Topic.find(params[:id])

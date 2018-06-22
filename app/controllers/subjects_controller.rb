@@ -13,7 +13,7 @@ class SubjectsController < ApplicationController
   end
 
   def create
-    @subject = Subject.new(story_data)
+    @subject = Subject.new(subject_data)
 
     respond_to do |format|
       if @subject.save
@@ -32,7 +32,7 @@ class SubjectsController < ApplicationController
     @subject = Subject.find(params[:id])
 
     respond_to do |format|
-      if @subject.update(story_data)
+      if @subject.update(subject_data)
 
         format.html{redirect_to @subject, notice: 'Subject was updated'}
       else
