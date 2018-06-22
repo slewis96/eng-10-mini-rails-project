@@ -1,1 +1,11 @@
-  <h1>Shows index</h1>
+<h1>Subjects</h1>
+
+<div class="">
+  <% @topic.each do |topic|  %>
+  <h2><%= link_to "#{topic.name}", topic %></h2>
+    <div class="contenttopic">
+        <p><%= topic.content %></p>
+        <img class="timg" src="<% topic.timg %>" alt="">
+    </div>
+  <% end %>
+</div>
