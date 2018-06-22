@@ -1,3 +1,23 @@
 // Place all the styles related to the misc controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  font-family: 'Ubuntu', sans-serif;
+
+  background-image: url("/images/bg.jpg");
+  color: white;
+}
+
+
+.home-div{
+ text-align: center;
+ width: 100%;
+ margin-top: 100px;
+ background-color: rgba(0, 0, 0, 0.25);
+ padding: 2%;
+ border-radius: 0px 0px 20px 20px;
+
+ h1 {
+   font-size: 80px;
+ }
+}
