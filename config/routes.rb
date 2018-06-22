@@ -3,4 +3,9 @@ Rails.application.routes.draw do
   resources :subjects do
     resources :topics
   end
+
+  root 'misc#index'
+  get 'index', to: 'misc#index', as: 'index'
+  get 'about', to: 'misc#about', as: 'about'
+
 end
