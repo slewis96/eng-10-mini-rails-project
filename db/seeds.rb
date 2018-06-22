@@ -6,12 +6,10 @@ HTML elements are the the building blocks of webpages, which has constructs for 
 
 HTML elements are represented by tags written using angle brackets. Tags are used to surround the content to provide information about document and can include other elements as sub elements. Browsers do not display these tags but provide the structure for the website."})
 #CSS
-Subject.create({title: "CSS", logo: "CSS_logo.png", simg: "CSS_ss.jpg", summary:"CSS is a is a styling language used with HTML to describe how elements are to be displayed on the screen. "})
+Subject.create({title: "CSS", logo: "CSS_logo.png", simg: "CSS_ss.jpg", summary:"CSS is a is a styling language used with HTML to describe how elements are to be displayed on the screen."})
 
 #Jquery - subject
-Subject.create({title: "JQuery", logo: "jquery_logo.png", simg: "jquery_ss.jpg", summary:"jQuery Summary
-
-The purpose of jQuery is to make it much easier to use JavaScript on your website. jQuery is a lightweight, 'write less, do more', JavaScript library. jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code. jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+Subject.create({title: "JQuery", logo: "jquery_logo.png", simg: "jquery_ss.jpg", summary:"The purpose of jQuery is to make it much easier to use JavaScript on your website. jQuery is a lightweight, 'write less, do more', JavaScript library. jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code. jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
 
 Before you start studying jQuery, you should have a basic knowledge of HTML, CSS and JavaScript (check out our pages for these if you haven't already!).
 
