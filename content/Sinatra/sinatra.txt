@@ -1,3 +1,4 @@
+
 Sinatra(a Ruby Gem)
 
 Sinatra is a small light weight web framework written in Ruby. It allows you to make small web applications quickly. Like Ruby-on-Rails, Sinatra is built upon Rack so you can think of it as a bare bones version of Rails. There is no ‘magic’ to speak of as everything is very explicit. This is why learning Sinatra before learning Rails is so beneficial. It reduces the learning curve of learning Rails quite a lot.
@@ -23,11 +24,9 @@ Views
 
 The view is really the simplest part of the MVC structure – at the basic level, it’s just a bunch of HTML boilerplate into which you insert the variables you’ve received from your controller and which will be sent to the browser. It’s your actual “webpage”. It will often have some snippets of code designed to properly present the variables it has received, for instance a loop that will display each one of the posts on your blog. Views are often called view templates.
 
-Views example
 
 Views live in the directory app/views/controller_name/action_name.html.erb, where controller_name is the name of the controller the view is linked to and action_name.html.erb is the corresponding method inside the controller that was run immediately prior to rendering the view.
 
-Views folder struct pic
 
 Rendering in Sinatra
 
@@ -45,7 +44,6 @@ Sessions
 
 “Sessions” are the idea that your user’s state is somehow preserved when he/she clicks from one page to the next. Remember, HTTP is stateless, so it’s up to either the browser or your application to “remember” what needs to be remembered.\n\n In practice, this is done by creating things like cookies, which can be implemented in Sinatra similarly to Rails.
 
-----------------------------------------------
 Optional??
 
 

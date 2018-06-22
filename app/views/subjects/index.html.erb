@@ -4,7 +4,7 @@
 <div class="content">
   <% @subjects.each do |subject|  %>
     <div class="subjectboxes">
-      <img class="logo" src="<%= subject.logo %>"></img>
+      <img class="logo" src="../assets/images/logos/<%= subject.logo %>"></img>
       <div class="subjecttext">
         <h2><%= link_to "#{subject.title}", subject %></h2>
         <p><%= subject.summary %></p>
