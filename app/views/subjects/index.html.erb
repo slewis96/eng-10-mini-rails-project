@@ -1,1 +1,14 @@
 <h1>Subject index</h1>
+<hr>
+
+<div class="content">
+  <% @subjects.each do |subject|  %>
+    <div class="subjectboxes">
+      <img class="logo" src="/images/logos/<%= subject.logo %>"></img>
+      <div class="subjecttext">
+        <h2><%= link_to "#{subject.title}", subject %></h2>
+        <p><%= subject.summary %></p>
+      </div>
+    </div>
+  <% end %>
+</div>

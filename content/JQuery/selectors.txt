@@ -6,11 +6,6 @@ You can select HTML elements based on their name, id, classes, types, attributes
 
 All selectors in jQuery start with the dollar sign and parentheses: $().
 
-Examples:
-$("p") - selects all p elements
-$(".test") - selects all elements with the class 'test'
-$("#test") - selects all elements with the ID 'test'
-
 See the image for more examples.
 
 Now that we have selected the element(s), we can use DOM manipulation and CSS manipulation using jQuery events, covered in the next topic.

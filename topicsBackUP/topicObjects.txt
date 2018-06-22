@@ -1,1 +1,0 @@
-Javascript supports Object Oriented Programming and allows objects to be created. An object is a collection of properties, and a property is an association between a name/key and a value. A property's value can be a function, in which case the property is known as a method. 
