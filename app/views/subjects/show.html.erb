@@ -1,18 +1,16 @@
 <h1>Subjects</h1>
 
 <div class="showtitle">
-  <% @subjects.each do |subject|  %>
-    <img class="showlogo" src="<%= subject.logo %>"></img>
+    <img class="showlogo" src="<%= @subject.logo %>"></img>
     <div class="showsubject">
-      <h1><%= link_to "#{subject.title}", subject %></h1>
-      <h3><%= subject.summary %></h3>
+      <h1><%= @subject.title %></h1>
+      <h4><%= @subject.summary %></h4>
     </div>
-  <% end %>
 </div>
-
+<% @topics = @subject.topics %>
 <div class="">
-  <% @topic.each do |topic|  %>
-  <h2><%= link_to "#{topic.name}", topic %></h2>
+  <% @topics.each do |topic|  %>
+  <h3> <%= topic.name %> </h3>
     <div class="contenttopic">
         <p><%= topic.content %></p>
         <img class="timg" src="<% topic.timg %>" alt="">
