@@ -1,0 +1,7 @@
+jQuery Summary
+
+The purpose of jQuery is to make it much easier to use JavaScript on your website. jQuery is a lightweight, "write less, do more", JavaScript library. jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code. jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+Before you start studying jQuery, you should have a basic knowledge of HTML, CSS and JavaScript (check out our pages for these if you haven't already!).
+
+Check out the following jQuery topics to continue.

@@ -1,0 +1,15 @@
+jQuery Events and Event Methods:
+
+All the different visitor's actions that a web page can respond to are called DOM events. jQuery is tailor-made to respond to these events.
+
+Examples of DOM events are clicking on an element or moving a mouse over an element (see image for more examples).
+
+The most commonly used is a click event. When a visitor clicks on an element with class 'button', for example, you can assign a click event as follows:
+$('.button').click();
+
+We now need to apply a method to the event by adding a function:
+$('.button').click(function(){
+  // action goes here!!
+});
+
+Event methods can be used to manipulate HTML and CSS. See the next topic for more.
