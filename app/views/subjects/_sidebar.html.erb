@@ -1,0 +1,12 @@
+<div class="showmainbody">
+  <div id="sidebar-wrapper">
+    <% @topics.each do |topic|  %>
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <% var1 = "##{topic.name}" %>
+          <a href= "<%= var1 %>"><h4><%= topic.name %></h4>
+          </a>
+        </li>
+      </ul>
+    <% end %>
+  </div>
