@@ -1,0 +1,19 @@
+Subjet Title:css
+
+Summary: CSS is a is a styling language used with HTML to describe how elements are to be displayed on the screen. 
+
+name: "styling"
+
+CSS can allows for elements on the HTML sheet to attain different styling attribute without embedding them on the HTML page. The elements such as a <h1> tag or a <body> can be accessed through the new styling sheet. This allow for easier access to change fonts, colours, background, this can also be used to change images sizes and rescaling for handheld devices.
+
+name: "elements"
+
+CSS is a styling language, and allows for drier code to the HTML model as the the styling is held on a separate sheet. This allows for easier style changes to dense code, as the reperentative 'body' can be changed by calling the element, class or ID. Changed can also be made by branching through elements to find <p> tags which can be changed without effecting other elements with the same tags. 
+
+name: "animation"
+
+Through the style sheet various affections and animations can be added to elements on the page. Such as buttons which can change on a click event such as the background change or highlight effect to show activation. Also the cursor can be changed as it hovers over clickable objects. Animation can also make object move on the screen to add a dynamic effect to the page. When using JavaScript, bottoms can be toggled to create different effects on the page though the animations. Animations can be done through using Media Query's on the elements of classes, these can be set apart from the element and then called upon for throughout the script and to add effects to the pages.   
+
+name: "add-ons"
+
+A very common add-on used with css is bootstrap, which have many aspect of css built in which change the elements on the page dependent on the class names used. Bootstrap also has many pre-build models, such as navbars, footers, jumbotron, which can be imported from the website and added to your files and edited to the users needs. The feature also have many built in HTML keys to allow for easier structure to the page through the HTML as opposed to using 'floats' or 'flex' within the CSS file. Another Add-on which is used along with CSS is SASS 'Syntactically Awesome Style Sheets' which is used to make CSS much drier as it allows for cleaner code relations.    
