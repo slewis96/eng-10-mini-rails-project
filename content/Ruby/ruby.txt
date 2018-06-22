@@ -1,0 +1,42 @@
+subject - Ruby
+
+summary - A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
+
+topic 1 - Strings
+Ruby deals with strings as well as numerical data. A string may be double-quoted ("...") or single-quoted ('...'). Double- and single-quoting have different effects in some cases. A double-quoted string allows character escapes by a leading backslash, and the evaluation of embedded expressions using #{}. A single-quoted string does not do this interpreting; what you see is what you get. Ruby's string handling is smarter and more intuitive than C's. For instance, you can concatenate strings with +, and repeat a string many times with *.
+
+topic 2 - Arrays & Hashes
+You can create an array by listing some items within square brackets ([]) and separating them with commas. Ruby's arrays can accommodate diverse object types. Arrays can be concatenated or repeated just as strings can. (Negative indices mean offsets from the end of an array, rather than the beginning.) Arrays can be converted to and from strings, using join and split respectively.
+
+An associative array has elements that are accessed not by sequential index numbers, but by keys which can have any sort of value. Such an array is sometimes called a hash or dictionary; in the ruby world, we prefer the term hash. A hash can be constructed by quoting pairs of items within curly braces ({}). You use a key to find something in a hash, much as you use an index to find something in an array.
+
+topic 3 - Classes
+In OO programming terminology, a category of objects like "dog" is called a class, and some specific object belonging to a class is called an instance of that class. Generally, to make an object in ruby or any other OO language, first one defines the characteristics of a class, then creates an instance. In ruby, a class definition is a region of code between the keywords class and end. A def inside this region begins the definition of a method of the class, which as we discussed in the previous chapter, corresponds to some specific behaviour for objects of that class.
+
+Making a new instance of a class is sometimes called instantiating that class. We need to have a dog before we can experience the pleasure of its conversation; we can't merely ask the Dog class to bark for us. On the other hand, if we want to hear the sound of a dog without getting emotionally attached, we can create (instantiate) an ephemeral, temporary dog, and coax a little noise out of it before it disappears via ruby's automatic garbage collection that decides it is an unwanted stray dog, and mercilessly disposes of it. Really it's okay, you know, because we can make all the dogs we want.
+
+topic 4 - Modules
+Modules in ruby are similar to classes, except:
+
+A module can have no instances.
+A module can have no subclasses.
+A module is defined by module ... end.
+
+There are two typical uses of modules. One is to collect related methods and constants in a central location. The Math module in ruby's standard library plays such a role. The :: operator tells the ruby interpreter which module it should consult for the value of a constant. If we want to refer to the methods or constants of a module directly without using ::, we can include that module.
+
+Another use of modules is called mixin. Some OO programming languages, including C++, allow multiple inheritance, that is, inheritance from more than one superclass. A real-world example of multiple inheritance is an alarm clock; you can think of alarm clocks as belonging to the class of clocks and also the class of things with buzzers. Ruby purposely does not implement true multiple inheritance, but the mixin technique is a good alternative. Remember that modules cannot be instantiated or subclassed; but if we include a module in a class definition, its methods are effectively appended, or "mixed in", to the class.
+
+Mixin can be thought of as a way of asking for whatever particular properties we want to have. For example, if a class has a working each method, mixing in the standard library's Enumerable module gives us sort and find methods for free. This use of modules gives us the basic functionality of multiple inheritance but allows us to represent class relationships with a simple tree structure, and so simplifies the language implementation considerably (a similar choice was made by the designers of Java).
+
+topic 5 - Variables
+
+Ruby has three kinds of variables, one kind of constant and exactly two pseudo-variables. The variables and the constants have no type. While untyped variables have some drawbacks, they have many more advantages and fit well with ruby's quick and easy philosophy.
+
+Variables must be declared in most languages in order to specify their type, modifiability (i.e., whether they are constants), and scope; since type is not an issue, and the rest is evident from the variable name as you are about to see, we do not need variable declarations in ruby.
+
+$	- global variable
+@	- instance variable
+[a-z] or _ - local variable
+[A-Z]	- constant
+
+The only exceptions to the above are ruby's pseudo-variables: self, which always refers to the currently executing object, and nil, which is the meaningless value assigned to uninitialised variables. Both are named as if they are local variables, but self is a global variable maintained by the interpreter, and nil is really a constant. As these are the only two exceptions, they don't confuse things too much.
