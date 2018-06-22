@@ -1,0 +1,1 @@
+Loops offer a quick and easy way to do something repeatedly.  Loops are used to repeatedly run a block of code - until a certain condition is met. Loops are good at iterating arrays and objects. JavaScript offers several options to repeatedly run a block of code, including while, do while, for and for-in.

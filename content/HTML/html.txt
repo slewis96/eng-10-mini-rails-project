@@ -1,0 +1,33 @@
+HTML - subject
+HyperText Markup Language, abbreviated as HTML, is the standard markup language for structuring web pages and web applications. Web browsers get HTML pages from a server/local storage and renders the pages into multimedia webpages.
+
+HTML elements are the the building blocks of webpages, which has constructs for images, videos, interactive forms and other objects thats can be added to a webpage. HTML has structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.
+
+HTML elements are represented by tags written using angle brackets. Tags are used to surround the content to provide information about document and can include other elements as sub elements. Browsers do not display these tags but provide the structure for the website.
+
+html_tables - topic
+A table is a structured set of data made up of rows and columns(tabular data). Tables allow us to represent information in a clean and structured. Tables allow us to easily lookup values that indicate a connection between different data types for example a person and their age, or a day in the week.
+
+html_lists topic
+There are 2 types of lists you may want to use in your web page. These are ordered lists or unordered lists.
+
+Ordered lists are numbered so if you have 3 items in an ordered list it would be displayed like this:
+
+1. List item 1
+
+2. List item 2
+
+3. List item 3
+
+Inside the <ol></ol> we list each item in the list inside <li></li> tags.
+
+The second type of list you may wish to add is an unordered list. This is known as bullet point list and has no numbering. You include <li></li> tags inside <ul></ul> tags to generate a bullet point list.
+
+html_forms - topic
+Html forms are one of the main points of interaction between user and a website. A html form is made up of one or more widgets. The widgets can be text fields, select boxes, buttons, checkboxes, or radio buttons. Widgets are paired with a label that describes their purpose. The main difference between a html form and a regular html document is that the form data is set to a web server. In such cases, a setup of a web server is required to receive and process data.
+
+html_form_validation - topic
+Form validation helps us to ensure that users fill out the required information and make sure the users inputs the correct information that is useful and compatible with our applications. Validation in a nutshell is the measures taken to make sure the user provides the required information and make sure it is correct for easy manipulation and use of data. If user passes all validation, the application allows data to be submitted which is then saved to a database. If incorrect information is input, the application will notify user to enter the correct information.
+
+Markup - topic
+Tags commonly come in pairs for example <h1></h1>. Although there are some self closing tags and are unpaired. An example of a self closing tag would be the image tag denoted as <img>. A very important component of a webpage markup is the document type declaration. This tells the browser which version/standard of the html language to interpret and render. The latest standard of html is html5 which is declared as <!DOCTYPE html>. If we do not specify this, different pages may interpret the html in a different way.
