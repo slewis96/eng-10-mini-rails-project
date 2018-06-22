@@ -7,7 +7,7 @@
       <img class="logo" src="/images/logos/<%= subject.logo %>"></img>
       <div class="subjecttext">
         <h2><%= link_to "#{subject.title}", subject %></h2>
-        <p><%= subject.summary %></p>
+        <p class="ptag" ><%= truncate(subject.summary, :length => 80) %></p>
       </div>
     </div>
   <% end %>
