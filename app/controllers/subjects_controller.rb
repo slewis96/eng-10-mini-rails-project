@@ -46,7 +46,7 @@ class SubjectsController < ApplicationController
     redirect_to subjects_path
   end
 
-  def story_data
-    story_data = params.require(:subject).permit(:title, :body, :author)
+  def subject_data
+    subject_data = params.require(:subject).permit(:title, :logo, :simg, :summary)
   end
 end
