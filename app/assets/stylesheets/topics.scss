@@ -2,8 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+h1{
+  text-align: center;
+  margin: 3%;
+}
+.showtitle{
+  margin-bottom: 3%;
+}
+
 .topicdiv{
-  background-color: pink;
+  background-color: #dce2ed;
   border: 2px gray solid;
+  border-radius: 20px;
   padding: 1%;
 }

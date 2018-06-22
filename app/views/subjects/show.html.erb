@@ -1,12 +1,12 @@
 <div class="showpage">
   <% @topics = @subject.topics %>
-  <%= render 'sidebar', topics: @topics %> 
-  <h1>Subjects</h1>
+
 
   <div class="showtitle">
       <img class="showlogo" src="<%= @subject.logo %>"></img>
       <div class="showsubject">
         <h1><%= @subject.title %></h1>
+        <hr>
         <h4><%= @subject.summary %></h4>
       </div>
   </div>
