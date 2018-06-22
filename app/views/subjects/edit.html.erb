@@ -1,0 +1,4 @@
+<h1><%= "Edit Page for #{@subject.id}" %></h1>
+<%= link_to "Back to #{@subject.id}", subject_path %>
+
+<%= render 'form', subject: @subject %>
