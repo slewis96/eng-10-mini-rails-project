@@ -1,0 +1,23 @@
+DOM, HTML and CSS Manipulation
+
+Now that we know how to select elements and create event listeners, we can apply methods and functions to manipulate the page how we want. Here are some examples:
+
+1. This example targets the CSS of the elements with class 'button', by applying the css() method to the click event. It means when the visitor clicks the element, the background colour of the element will turn blue.
+
+$('.button').click(function(){
+  $(this).css('background-color', 'blue');
+});
+
+2. The jQuery append() and prepend() methods insert content into selected HTML elements as follows:
+
+$('p').append('Some text appended to the END of a paragraph.');
+$('p').prepend('Some text prepended to the BEGINNING of a paragraph.');
+
+3. The following example shows how to add class attributes to different elements, when a button is clicked:
+
+$('button').click(function(){
+    $('h1, h2, p').addClass('blue');
+    $('div').addClass('important');
+});
+
+See the image for more DOM manipulation methods.
