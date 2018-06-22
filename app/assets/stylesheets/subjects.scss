@@ -1,3 +1,31 @@
 // Place all the styles related to the subjects controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1{
+  text-align: center;
+}
+.logo {
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  border:2px solid grey;
+  border-radius: 4px;
+  background-color: #a4abb5;
+  padding: 10px;
+}
+.content{
+  color: black;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.ptag{
+  background-color: #dce2ed;
+  border: 2px gray solid;
+  border-radius: 20px;
+  padding: 1%;
+}
+a{
+  color: white;
+}

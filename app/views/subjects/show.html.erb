@@ -1,19 +1,25 @@
-<h1>Subjects</h1>
+<div class="showpage">
+  <% @topics = @subject.topics %>
+  <% title = @subject.title%>
+  <div class="showtitle">
+      <div class="showsubject">
+        <h1><%= @subject.title %></h1>
+        <hr>
+        <h4><%= @subject.summary %></h4>
+      </div>
+  </div>
+  <div class="topicdiv">
+    <% @topics.each do |topic|  %>
+    <h3> <%= topic.name %> </h3>
+      <div class="contenttopic">
+          <p><%= topic.content %></p>
+          <img class="timg" src="<% topic.timg %>" alt="">
+      </div>
+      <hr>
+    <% end %>
+  </div>
 
-<div class="showtitle">
-    <img class="showlogo" src="/images/logos/<%= @subject.logo %>"></img>
-    <div class="showsubject">
-      <h1><%= @subject.title %></h1>
-      <h4><%= @subject.summary %></h4>
-    </div>
 </div>
-<% @topics = @subject.topics %>
-<div class="">
-  <% @topics.each do |topic|  %>
-  <h3> <%= topic.name %> </h3>
-    <div class="contenttopic">
-        <p><%= topic.content %></p>
-        <img class="timg" src="/images/topics/<%= topic.timg %>" alt="">
-    </div>
-  <% end %>
-</div>
+
+<%= link_to "Edit", edit_subject_path(@subject.id) %> |
+<%= link_to 'Delete', @subject, method: :delete %>

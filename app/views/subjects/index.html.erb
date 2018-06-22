@@ -1,4 +1,4 @@
-<h1>Subject index</h1>
+
 <hr>
 
 <div class="content">
@@ -7,7 +7,7 @@
       <img class="logo" src="/images/logos/<%= subject.logo %>"></img>
       <div class="subjecttext">
         <h2><%= link_to "#{subject.title}", subject %></h2>
-        <p><%= subject.summary %></p>
+        <p class="ptag" ><%= truncate(subject.summary, :length => 110) %></p>
       </div>
     </div>
   <% end %>

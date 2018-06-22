@@ -4,6 +4,7 @@
     <title>LearningPlatform</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'https://fonts.googleapis.com/css?family=Ubuntu' %>
 
     <%= stylesheet_link_tag    'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -12,8 +13,24 @@
   </head>
 
   <body>
+
     <%= render 'layouts/navbar' %>
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <!-- jQuery for sidebar -->
+    <script>
+    $(".menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    <!-- jQuery for sidebar -->
+
+    <script>src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
