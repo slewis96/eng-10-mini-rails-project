@@ -1,4 +1,5 @@
 class SubjectsController < ApplicationController
+  http_basic_authenticate_with name: "eng10", password: "eng10password", except: [:index, :show]
 
   def index
     @subjects = Subject.all
