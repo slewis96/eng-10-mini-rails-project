@@ -7,6 +7,10 @@ body{
   color: white;
 }
 
+.home_page {
+  height: 500px;
+}
+
 
 .home-div{
  text-align: center;
@@ -27,10 +31,6 @@ footer{
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   font-size: 14px;
-
-  .add-slash::after {
-    ontent: ' /';
-  }
 
   img {
 
@@ -91,12 +91,25 @@ footer{
 
   ul {
 
-    &.footer-menu,
-    &.footer-social {
+    &.footer-menu {
 
       & li {
         display: inline;
         padding-right: 5px;
+      }
+
+      & .add-space {
+        padding-right: 5px;
+      }
+
+    }
+
+
+    &.footer-social {
+
+      & li {
+        display: inline;
+        padding-left: 10px;
       }
 
     }
