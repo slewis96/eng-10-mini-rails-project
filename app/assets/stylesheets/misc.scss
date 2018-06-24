@@ -7,17 +7,21 @@ body{
   color: white;
 }
 
+.home_page {
+  height: 500px;
+}
+
 
 .home-div{
  text-align: center;
- width: 100%;
+ width: 70%;
  margin-top: 100px;
  background-color: rgba(0, 0, 0, 0.25);
  padding: 2%;
- border-radius: 0px 0px 20px 20px;
-
+ border-radius: 20px 20px 20px 20px;
  h1 {
    font-size: 80px;
+   color: #ffc400;
  }
 }
 
@@ -26,9 +30,98 @@ footer{
   bottom: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
 
   img {
+
     height: 40px;
     width: 40px;
+
+    &.fa-facebook {
+      content: url('/images/logos/facebook-black-logo.png');
+
+      &:hover {
+        content: url('/images/logos/facebook-color-logo.png');
+      }
+    }
+
+    &.fa-linkedin {
+      content: url('/images/logos/linkedin-black-logo.png');
+
+      &:hover {
+        content: url('/images/logos/linkedin-color-logo.png');
+      }
+    }
+
+    &.fa-twitter {
+      content: url('/images/logos/twitter-black-logo.png');
+
+      &:hover {
+        content: url('/images/logos/twitter-color-logo.png');
+      }
+    }
+
+    &.fa-instagram {
+      content: url('/images/logos/instagram-black-logo.png');
+
+      &:hover {
+        content: url('/images/logos/instagram-color-logo.png');
+      }
+    }
+
+    &.fa-vimeo {
+      content: url('/images/logos/vimeo-black-logo.png');
+
+      &:hover {
+        content: url('/images/logos/vimeo-color-logo.png');
+      }
+    }
+
+  }
+
+  .footer-left {
+    padding: 25px 0 10px 0;
+  }
+
+  .footer-right {
+    text-align: right;
+    padding: 25px 0 10px 0;
+  }
+
+
+  ul {
+
+    &.footer-menu {
+
+      & li {
+        display: inline;
+        padding-right: 5px;
+      }
+
+      & .add-space {
+        padding-right: 5px;
+      }
+
+    }
+
+
+    &.footer-social {
+
+      & li {
+        display: inline;
+        padding-left: 10px;
+      }
+
+    }
+  }
+
+
+}
+
+
+@media (min-width: 992px) {
+
+  .col-md-6 {
+    float: left;
   }
 }
