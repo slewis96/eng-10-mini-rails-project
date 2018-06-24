@@ -1,7 +1,9 @@
 class TopicsController < ApplicationController
   http_basic_authenticate_with name: "eng10", password: "eng10password", only: [:edit, :new]
   before_action :set_subject
-
+  def index
+    redirect_to @subject
+  end
   def new
     @topic = Topic.new
   end
