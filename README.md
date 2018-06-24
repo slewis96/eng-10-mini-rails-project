@@ -14,7 +14,6 @@ This site consists of a list of technologies we have learnt during training at S
 
 We were given 24 hours to complete this website, we did this in sprints with Ali coordinating everything and defining the stucture of the day in out basic scrum meeting.
 
-
 ### How to open the site
 Requirements: Postgresql, rails
 Clone or download the files navigate to the folder, then in terminal:
@@ -22,3 +21,9 @@ Clone or download the files navigate to the folder, then in terminal:
 2. rails db:migrate
 3. rails s
 4. open your desired browser and visit localhost:3000
+
+### The Site:
+![Image of phone notes](content/homepage.png)
+![Image of phone notes](content/subjectspage.png)
+![Image of phone notes](content/aboutpage.png)
+![Image of phone notes](content/topicspage.png)
