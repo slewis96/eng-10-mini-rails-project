@@ -25,6 +25,20 @@ Clone or download the files navigate to the folder, then in terminal:
 
 ### The Site:
 ![Image of phone notes](content/homepage.png)
+
+<hr>
+<br>
+
 ![Image of phone notes](content/subjectspage.png)
+
+<hr>
+<br>
+
 ![Image of phone notes](content/aboutpage.png)
+
+<hr>
+<br>
+
 ![Image of phone notes](content/topicspage.png)
+
+<hr>
