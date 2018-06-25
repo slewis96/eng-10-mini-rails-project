@@ -7,20 +7,20 @@
         <h4><%= @subject.summary %></h4>
       </div>
   </div>
-<div class="container">
-  <div class="topicdiv">
-    <% @topics.each do |topic|  %>
-    <h3> <%= topic.name %> </h3>
-      <div class="contenttopic">
-          <p><%= topic.content %></p>
-          <% if topic.timg != "" %>
-            <img class="timg" src="/images/topics/<%= topic.timg %>" alt="">
-          <% end %>
-      </div>
-      <hr>
-    <% end %>
+  <div class="container">
+    <div class="topicdiv">
+      <% @topics.each do |topic|  %>
+      <h3> <%= topic.name %> </h3>
+        <div class="contenttopic">
+            <p><%= topic.content %></p>
+            <% if topic.timg != "" %>
+              <img class="timg" src="/images/topics/<%= topic.timg %>" alt="">
+            <% end %>
+        </div>
+        <hr>
+      <% end %>
+    </div>
+  <%= link_to "Edit", edit_subject_path(@subject.id) %> |
+  <%= link_to 'Delete', @subject, method: :delete %>
   </div>
-<%= link_to "Edit", edit_subject_path(@subject.id) %> |
-<%= link_to 'Delete', @subject, method: :delete %>
-</div>
 </div>
