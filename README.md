@@ -17,10 +17,11 @@ We were given 24 hours to complete this website, we did this in sprints with Ali
 ### How to open the site
 Requirements: Postgresql, rails
 Clone or download the files navigate to the folder, then in terminal:
-1. rails db:create
-2. rails db:migrate
-3. rails s
-4. open your desired browser and visit localhost:3000
+1. bundle
+2. rails db:create
+3. rails db:migrate
+4. rails s
+5. open your desired browser and visit localhost:3000
 
 ### The Site:
 ![Image of phone notes](content/homepage.png)
