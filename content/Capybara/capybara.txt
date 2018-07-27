@@ -39,4 +39,4 @@ topic 3 - Use
 
  It uses very semantic method names and functions to turn complicated code like 'find_element(:id, 'example').click' into intuitive and shorter phrases that would be meaningful to a non-programmer like 'click_on('example')'
 
- A cheat sheet for its functions can be found "<a href="https://devhints.io/capybara">here</a>"."
+ A cheat sheet for its functions can be found \"<a href=\"https://devhints.io/capybara\">here</a>\".\"

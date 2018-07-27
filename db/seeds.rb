@@ -34,6 +34,15 @@ Selenium is a suite of tools to automate web browsers across many platforms that
 
   - runs in many browsers and operating systems
   - can be controlled by many programming languages and testing frameworks."})
+Subject.create({title: "ISTQB", logo: "ISTQB_logo.png", simg: "", summary:"The ISTQB foundation level certification covers the basics of software testing principles and techniques. There are 6 main topics.
+"})
+Subject.create({title: "capybara", logo: "capybara_logo.png", simg: "", summary:"Capybara is a web-based test automation software that simulates scenarios for user stories and automates web application testing for behavior-driven software development. It simply provides a high level and very user friendly language to use when testing with ruby. It uses very semantic method names and functions to turn complicated code like 'find_element(:id, 'example').click' into intuitive and shorter phrases that would be meaningful to a non-programmer like 'click_on('example')'.
+"})
+Subject.create({title: "Cucumber", logo: "cucumber_logo.png", simg: "", summary:"Cucumber is a software tool used by computer programmers for testing other software.
+It runs automated acceptance tests written in a behavior-driven development (BDD) style.
+Central to the Cucumber BDD approach is its plain language parser called Gherkin. Gherkin is a simple
+set of grammar rules that makes plain text structured enough for Cucumber to understand. The scenario above
+is written in Gherkin."})
 Subject.create({title: "", logo: "", simg: "", summary:""})
 
 
@@ -220,26 +229,10 @@ Topic.create(name: "Sessions", content: "Sessions are the idea that your user’
 Topic.create(name: "DOM", content: "", timg: "", subject_id: "8")
 
 
-#GameProject
-Topic.create(name: "Shaun Scott: POINT DEFENSE, A BROWSER BASED RADIAL SHOOTER GAME", content: "A radial shooter game where the user control’s a turret in the middle of the screen with his mouse and attempts to fight off waves of enemies. Shaun created this game with learned skills during the academy. The browser game was made using only HTML5, CSS and JavaScript (jQuery) and without using canvas. The methodology that was used to create the game was in Agile with sprints and producing an MVP by the end of sprint one. As well as frequent quality evaluation and evaluation of user stories.
-
-The final product became a fully functioning game with a score, multiple theme’s, multiple game modes and multiple different weapons to use to fire. It is currently live and can be accessed here if you would like to", timg: "", subject_id: "9")
-Topic.create(name: "Toweka Malcolm: A BROWSER BASED BRICK BREAKING GAME (BREAKOUT)", content: "A brick breaking game based on the well-known game breakout. Toweka created this game with learned skills during the academy. The browser game was made using HTML5, CSS, JavaScript (jQuery) and Bootstrap. The methodology that was used to create the game was in Agile with sprints and producing an MVP by the end of sprint one. Toweka's project is fully functional complete with collision detection, reset function, background theme, sound effects, whilst tracking the score and lives and displaying them on the game screen.
-
-To view Toweka's game please visit: https://toweka.github.io/game-project/", timg: "", subject_id: "9")
-Topic.create(name: "Steve Besal: CHICKEN RUN", content: "", timg: "", subject_id: "9")
-Topic.create(name: "Ali Karami: MINESWEEPER", content: "A single-player clicking puzzle game based on the famous Microsoft Windows Minesweeper. For this indie game development project Ali embarked on a challenge to bring the long-running popular MS Minesweeper to life on the browsers with the aim that everyone, regardless of the operating system they use, can enjoy playing it. To accomplish this, he employed his newly acquired skills of HTML, CSS and JavaScript with a pinch of Bootstrap and a generous sprinkle of jQuery. Ali exercised the agile methodology by dividing the project into two sprints with the goal of delivering a Minimum Viable Product (MVP) by the end of the first sprint and extending the functionalities during the second sprint. The MVP was successfully delivered in time including the basic clicking and exploration functionalities. In the second sprint extensions including the double-click function, timer, media queries, mine detonation animation and sound effects were added and the game benefitted from a more attractive style that resembled its Windows 8 version. Throughout the project a careful and regular use of Git version control system was conducted to track all the committed changes at frequent intervals. During this project Ali demonstrated successful planning, design, implementation and testing that led to an in time delivery of a fully functional and documented product. The final product can be found at: https://github.com/alijy/Minesweeper", timg: "", subject_id: "9")
-Topic.create(name: "Joseph Cheung: CARD MATCHING GAME", content: "Joseph created a browser based card matching game using html, css and javascript. The project was completed with the agile methodology building and always had functional prototypes from start to finish. Joseph's project is fully functional complete with multiple selectable difficulties, background theme, sound effects, tracking the time and moves taken by the players and displayed those statistics at the score screen.
-
-Joseph's project is viewable at: https://github.com/jckcheung09/Card-Matching-game", timg: "", subject_id: "9")
-Topic.create(name: "Pawan Kumar: HANGMAN", content: "Pawan was tasked with creating a web based game using HTML CSS and Javascript. The project was successfully delivered using the Agile approach, which consisted of two sprints carried out over the course of the week. The first sprint objective was to have a Minimum Viable Product(MVP). Pawan's MVP had the basic functionality of hangman working; the user was able to click on an input, the game checked the input with the selected word, the parts of the body were being added to the structure, the game kept track of the number of lives left. During the second sprint, Pawan had the final product ready where the game was fully functional, was styled and also had sound effects. Pawan has demonstrated careful planning, good documenting and development of a web based game utilising his newly gained skills from the previous weeks. Throughout the project, Pawan has demonstrated excellent use of Git and bash technologies which is reflected by his online GitHub repository for this game project. Link to the game: https://pawaz11.github.io/hangman/", timg: "", subject_id: "9")
-Topic.create(name: "Sebastian Lewis: AIM/REACTION GAME", content: "For this first project Sebastian was tasked with creating a game, the game he settled on implementing was an aim/reaction game where users would have to click a target within a certain time without missing for as long as they could. An agile approach was taken in the completion of this project with two sprints over a week with the first producing a playable product. The technologies used for the game were HTML, CSS, JavaScript, jQuery, and Git; having gone into further detail then his pre-existing knowledge on these technologies in the first few weeks at Sparta Sebastian tackled this project with focus and enthusiasm. Using a more methodical approach, adequate planning, and with the use of Git Workflow Sebastian managed to produce a complete project meeting his all the requirements he set himself. The outcome: https://github.com/slewis96/CircleGame", timg: "", subject_id: "9")
-Topic.create(name: "Anne Cooke: A BROWSER BASED SIMON SAYS GAME", content: "A memory test game based on the well-known Simon Says game. Anne created this game with the skilled she has learned during the academy. The browser game was made using HTML5, CSS, and JavaScript (jQuery). The methodology that was used to create the game was in Agile with sprints and producing an MVP by the end of sprint one. Link to the game: https://annefcooke.github.io/simon-says-project/", timg: "", subject_id: "9")
-
 # XML
 Topic.create(name: "Parsing", content: "The XML DOM (Document Object Model) defines the properties and methods for accessing and editing XML.
 However, before an XML document can be accessed, it must be loaded into an XML DOM object.
-All modern browsers have a built-in XML parser that can convert text into an XML DOM object.", timg: "", subject_id: "10")
+All modern browsers have a built-in XML parser that can convert text into an XML DOM object.", timg: "", subject_id: "9")
 
 #Selenium
 Topic.create(name: "Selenium Webdriver", content: "If you want to:
@@ -249,17 +242,79 @@ Topic.create(name: "Selenium Webdriver", content: "If you want to:
 
 Then you want to use Selenium WebDriver; a collection of language specific bindings to drive a browser -- the way it is meant to be driven.
 
-Selenium WebDriver is the successor of Selenium Remote Control which has been officially deprecated. The Selenium Server (used by both WebDriver and Remote Control) now also includes built-in grid capabilities.
-", timg: "", subject_id: "11")
+Selenium WebDriver is the successor of Selenium Remote Control which has been officially deprecated. The Selenium Server (used by both WebDriver and Remote Control) now also includes built-in grid capabilities.", timg: "", subject_id: "10")
 Topic.create(name: "Selenium IDE", content: "If you want to:
 
   - create quick bug reproduction scripts
   - create scripts to aid in automation-aided exploratory testing
 
-Then you want to use Selenium IDE; a Firefox add-on that will do simple record-and-playback of interactions with the browser.
-", timg: "", subject_id: "11")
+Then you want to use Selenium IDE; a Firefox add-on that will do simple record-and-playback of interactions with the browser.", timg: "", subject_id: "10")
+
+# ISTQB
+Topic.create(name: "The Fundamentals of Testing", content: "This chapter covers why we test, what the main principles of testing are, and the steps of the Fundamental Test Process (FTP). An example of a testing principle is early testing - which is important in order to find defects earlier, reduce the cost of fixing the defect, and can also avoid defect multiplication where possible.", timg: "", subject_id: "11")
+Topic.create(name: "Software Testing Lifecycles", content: "There are several lifecycles that a project can follow, which affect when and how testing is implemented. The main lifecycles are Waterfall, the V-Model and Agile. The V-Model involves separate testing levels including Unit Testing, Integration Testing, System Testing and Acceptance Testing.", timg: "", subject_id: "11")
+Topic.create(name: "Static Testing", content: "Static testing is the testing of products where the code is not executed. It starts early in the lifecycle. There are several levels of formality that static testing can have, including informal reviews, walkthroughs, technical reviews, and inspections.", timg: "", subject_id: "11")
+Topic.create(name: "Test Design Techniques", content: "The main techniques used in testing are Black-Box testing, White-Box testing, and Experienced-Based testing. Black-Box testing is functional testing based on the software requirements and specifications. White-Box testing is where the tester has access to the code and bases tests on the structure of the code. Experience-based testing includes exploratory testing and error guessing, based on the tester's previous experience and on previous projects.", timg: "", subject_id: "11")
+Topic.create(name: "Test Management", content: "This section covers tester independence, and what to include in a test plan, a defect report and a test summary report. It also covers what tasks the testers and test leads are responsible for in the project.", timg: "", subject_id: "11")
+Topic.create(name: "Tools for Software Testing", content: "This section covers different tools available for testing. When first introducing a new tool a pilot project is useful to learn more about the tool and how it would fit into existing processes.", timg: "", subject_id: "11")
+
+#Capybara
+Topic.create(name: "Integration with other tools", content: "It is a part of the Cucumber testing framework written in the Ruby programming language that simulates various aspects of a web browser from the perspective of a real user. Capybara is a library/gem built to be used on top of an underlying web-based driver. It offers a user-friendly DSL (Domain Specific Language) which is used to describe actions that are executed by the underlying web driver. It has a few supported drivers: Selenium-webdriver Capybara-webkitRack::test", timg: "", subject_id: "12")
+Topic.create(name: "Initialisation", content: "To use Capybara you need to install the gem 'capybara' and require it in your ruby program files.
+
+require 'capybara'
+
+Capybara DSL is a part of the capybara gem which
+require 'capybara/dsl'
+
+The below code is an example of capybara being used in an rspec spec_helper file.
+
+Capybara.register_driver :chrome do |app|
+  Capybara::Selenium::Driver.new(app,:browser => :chrome)
+end
+
+Capybara.configure do |config|
+  config.default_max_wait_time = 10
+  config.ignore_hidden_elements = false
+  config.default_driver = :chrome
+end", timg: "", subject_id: "12")
+Topic.create(name: "Use", content: "It uses very semantic method names and functions to turn complicated code like 'find_element(:id, 'example').click' into intuitive and shorter phrases that would be meaningful to a non-programmer like 'click_on('example')'
+
+A cheat sheet for its functions can be found \"<a href=\"https://devhints.io/capybara\">here</a>\".\"", timg: "", subject_id: "12")
+
+#Cucumber
+Topic.create(name: "install and start topic", content: "Create a Gemfile with the following contents:
+
+source \"https://rubygems.org\"
+
+group :test do
+  gem 'cucumber', '~> 3.1.0'
+  gem 'rspec', '~> 3.7.0'
+end
+Install Cucumber and prepare the file structure:
+
+bundle install
+cucumber --init
+You now have a simple project with Cucumber installed.
+
+", timg: "", subject_id: "13")
+Topic.create(name: "Gherkin layout", content: "Cucumber tests usually come in the form:
+Scenario: Sunday is not Friday
+    Given today is Sunday
+    When I ask whether it's Friday yet
+    Then I should be told \"Nope\"", timg: "", subject_id: "13")
+Topic.create(name: "Step Definition", content: "Once a test is wireframed out you can fill in the appropriate methods
+Given(\"today is Friday\") do
+  @today = Friday
+end
+
+When(\"I ask whether it's Friday yet\") do
+  @actual_answer = is_it_friday(@today)
+end
+
+Then(\"I should be told Yeah\") do
+  expect(@actual_answer).to eq(\"Yeah\")
+end", timg: "", subject_id: "13")
 
 
-
-
-Topic.create(name: "", content: "", timg: "", subject_id: "12")
+Topic.create(name: "", content: "", timg: "", subject_id: "14")

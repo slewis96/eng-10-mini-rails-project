@@ -8,7 +8,7 @@ is written in Gherkin.
 install and start topic:
 Create a Gemfile with the following contents:
 
-source "https://rubygems.org"
+source \"https://rubygems.org\"
 
 group :test do
   gem 'cucumber', '~> 3.1.0'
@@ -26,18 +26,18 @@ Cucumber tests usually come in the form:
 Scenario: Sunday is not Friday
     Given today is Sunday
     When I ask whether it's Friday yet
-    Then I should be told "Nope"
+    Then I should be told \"Nope\"
 
 step defs topic:
 Once a test is wireframed out you can fill in the appropriate methods
-Given("today is Friday") do
+Given(\"today is Friday\") do
   @today = Friday
 end
 
-When("I ask whether it's Friday yet") do
+When(\"I ask whether it's Friday yet\") do
   @actual_answer = is_it_friday(@today)
 end
 
-Then("I should be told Yeah") do
-  expect(@actual_answer).to eq("Yeah")
+Then(\"I should be told Yeah\") do
+  expect(@actual_answer).to eq(\"Yeah\")
 end
