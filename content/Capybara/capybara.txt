@@ -21,7 +21,7 @@ To use Capybara you need to install the gem 'capybara' and require it in your ru
 require 'capybara'
 
 Capybara DSL is a part of the capybara gem which
-require "capybara/dsl"
+require 'capybara/dsl'
 
 The below code is an example of capybara being used in an rspec spec_helper file.
 
