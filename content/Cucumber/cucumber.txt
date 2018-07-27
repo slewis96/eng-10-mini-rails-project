@@ -1,0 +1,43 @@
+Cucumber
+Cucumber is a software tool used by computer programmers for testing other software.
+It runs automated acceptance tests written in a behavior-driven development (BDD) style.
+Central to the Cucumber BDD approach is its plain language parser called Gherkin. Gherkin is a simple
+set of grammar rules that makes plain text structured enough for Cucumber to understand. The scenario above
+is written in Gherkin.
+
+install and start topic:
+Create a Gemfile with the following contents:
+
+source "https://rubygems.org"
+
+group :test do
+  gem 'cucumber', '~> 3.1.0'
+  gem 'rspec', '~> 3.7.0'
+end
+Install Cucumber and prepare the file structure:
+
+bundle install
+cucumber --init
+You now have a simple project with Cucumber installed.
+
+
+gherkin layout topic:
+Cucumber tests usually come in the form:
+Scenario: Sunday is not Friday
+    Given today is Sunday
+    When I ask whether it's Friday yet
+    Then I should be told "Nope"
+
+step defs topic:
+Once a test is wireframed out you can fill in the appropriate methods
+Given("today is Friday") do
+  @today = Friday
+end
+
+When("I ask whether it's Friday yet") do
+  @actual_answer = is_it_friday(@today)
+end
+
+Then("I should be told Yeah") do
+  expect(@actual_answer).to eq("Yeah")
+end
