@@ -36,7 +36,7 @@ Selenium is a suite of tools to automate web browsers across many platforms that
   - can be controlled by many programming languages and testing frameworks."})
 Subject.create({title: "ISTQB", logo: "ISTQB_logo.png", simg: "", summary:"The ISTQB foundation level certification covers the basics of software testing principles and techniques. There are 6 main topics.
 "})
-Subject.create({title: "capybara", logo: "capybara_logo.png", simg: "", summary:"Capybara is a web-based test automation software that simulates scenarios for user stories and automates web application testing for behavior-driven software development. It simply provides a high level and very user friendly language to use when testing with ruby. It uses very semantic method names and functions to turn complicated code like 'find_element(:id, 'example').click' into intuitive and shorter phrases that would be meaningful to a non-programmer like 'click_on('example')'.
+Subject.create({title: "Capybara", logo: "capybara_logo.png", simg: "", summary:"Capybara is a web-based test automation software that simulates scenarios for user stories and automates web application testing for behavior-driven software development. It simply provides a high level and very user friendly language to use when testing with ruby. It uses very semantic method names and functions to turn complicated code like 'find_element(:id, 'example').click' into intuitive and shorter phrases that would be meaningful to a non-programmer like 'click_on('example')'.
 "})
 Subject.create({title: "Cucumber", logo: "cucumber_logo.png", simg: "", summary:"Cucumber is a software tool used by computer programmers for testing other software.
 It runs automated acceptance tests written in a behavior-driven development (BDD) style.
