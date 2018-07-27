@@ -25,6 +25,16 @@ Subject.create({title: "Ruby", logo: "ruby_logo.png", simg: "ruby_ss.jpg", summa
 Subject.create({title: "SASS", logo: "SASS_logo.png", simg: "SASS_ss.jpg", summary:"Sass is an extension of css and makes styling through relationships much easier then conventional css."})
 #sinatra
 Subject.create({title: "Sinatra", logo: "sinatra_logo.png", simg: "sinatra_ss.jpg", summary:"Sinatra is a small light weight web framework written in Ruby. It allows you to make small web applications quickly. Like Ruby-on-Rails, Sinatra is built upon Rack so you can think of it as a bare bones version of Rails. There is no ‘magic’ to speak of as everything is very explicit. This is why learning Sinatra before learning Rails is so beneficial. It reduces the learning curve of learning Rails quite a lot."})
+Subject.create({title: "XML", logo: "XML_logo.png", simg: "", summary:"XML stands for eXtensible Markup Language. XML was designed to store and transport data whilst being be both human and machine-readable."})
+Subject.create({title: "Selenium", logo: "selenium_logo.png", simg: "", summary:"Selenium automates browsers. That's it! What you do with that power is entirely up to you. Primarily, it is for automating web applications for testing purposes, but is certainly not limited to just that. Boring web-based administration tasks can (and should!) be automated as well.
+
+Selenium has the support of some of the largest browser vendors who have taken (or are taking) steps to make Selenium a native part of their browser. It is also the core technology in countless other browser automation tools, APIs and frameworks.
+
+Selenium is a suite of tools to automate web browsers across many platforms that:
+
+  - runs in many browsers and operating systems
+  - can be controlled by many programming languages and testing frameworks."})
+Subject.create({title: "", logo: "", simg: "", summary:""})
 
 
 #---------Topics------------
@@ -225,3 +235,31 @@ Joseph's project is viewable at: https://github.com/jckcheung09/Card-Matching-ga
 Topic.create(name: "Pawan Kumar: HANGMAN", content: "Pawan was tasked with creating a web based game using HTML CSS and Javascript. The project was successfully delivered using the Agile approach, which consisted of two sprints carried out over the course of the week. The first sprint objective was to have a Minimum Viable Product(MVP). Pawan's MVP had the basic functionality of hangman working; the user was able to click on an input, the game checked the input with the selected word, the parts of the body were being added to the structure, the game kept track of the number of lives left. During the second sprint, Pawan had the final product ready where the game was fully functional, was styled and also had sound effects. Pawan has demonstrated careful planning, good documenting and development of a web based game utilising his newly gained skills from the previous weeks. Throughout the project, Pawan has demonstrated excellent use of Git and bash technologies which is reflected by his online GitHub repository for this game project. Link to the game: https://pawaz11.github.io/hangman/", timg: "", subject_id: "9")
 Topic.create(name: "Sebastian Lewis: AIM/REACTION GAME", content: "For this first project Sebastian was tasked with creating a game, the game he settled on implementing was an aim/reaction game where users would have to click a target within a certain time without missing for as long as they could. An agile approach was taken in the completion of this project with two sprints over a week with the first producing a playable product. The technologies used for the game were HTML, CSS, JavaScript, jQuery, and Git; having gone into further detail then his pre-existing knowledge on these technologies in the first few weeks at Sparta Sebastian tackled this project with focus and enthusiasm. Using a more methodical approach, adequate planning, and with the use of Git Workflow Sebastian managed to produce a complete project meeting his all the requirements he set himself. The outcome: https://github.com/slewis96/CircleGame", timg: "", subject_id: "9")
 Topic.create(name: "Anne Cooke: A BROWSER BASED SIMON SAYS GAME", content: "A memory test game based on the well-known Simon Says game. Anne created this game with the skilled she has learned during the academy. The browser game was made using HTML5, CSS, and JavaScript (jQuery). The methodology that was used to create the game was in Agile with sprints and producing an MVP by the end of sprint one. Link to the game: https://annefcooke.github.io/simon-says-project/", timg: "", subject_id: "9")
+
+# XML
+Topic.create(name: "Parsing", content: "The XML DOM (Document Object Model) defines the properties and methods for accessing and editing XML.
+However, before an XML document can be accessed, it must be loaded into an XML DOM object.
+All modern browsers have a built-in XML parser that can convert text into an XML DOM object.", timg: "", subject_id: "10")
+
+#Selenium
+Topic.create(name: "Selenium Webdriver", content: "If you want to:
+
+  - create robust, browser-based regression automation suites and tests
+  - scale and distribute scripts across many environments
+
+Then you want to use Selenium WebDriver; a collection of language specific bindings to drive a browser -- the way it is meant to be driven.
+
+Selenium WebDriver is the successor of Selenium Remote Control which has been officially deprecated. The Selenium Server (used by both WebDriver and Remote Control) now also includes built-in grid capabilities.
+", timg: "", subject_id: "11")
+Topic.create(name: "Selenium IDE", content: "If you want to:
+
+  - create quick bug reproduction scripts
+  - create scripts to aid in automation-aided exploratory testing
+
+Then you want to use Selenium IDE; a Firefox add-on that will do simple record-and-playback of interactions with the browser.
+", timg: "", subject_id: "11")
+
+
+
+
+Topic.create(name: "", content: "", timg: "", subject_id: "12")
