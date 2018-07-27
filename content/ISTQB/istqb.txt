@@ -1,0 +1,27 @@
+ISTQB
+
+The ISTQB foundation level certification covers the basics of software testing principles and techniques. There are 6 main topics.
+
+The Fundamentals of Testing
+
+This chapter covers why we test, what the main principles of testing are, and the steps of the Fundamental Test Process (FTP). An example of a testing principle is early testing - which is important in order to find defects earlier, reduce the cost of fixing the defect, and can also avoid defect multiplication where possible.
+
+Software Testing Lifecycles
+
+There are several lifecycles that a project can follow, which affect when and how testing is implemented. The main lifecycles are Waterfall, the V-Model and Agile. The V-Model involves separate testing levels including Unit Testing, Integration Testing, System Testing and Acceptance Testing.
+
+Static Testing
+
+Static testing is the testing of products where the code is not executed. It starts early in the lifecycle. There are several levels of formality that static testing can have, including informal reviews, walkthroughs, technical reviews, and inspections.
+
+Test Design Techniques
+
+The main techniques used in testing are Black-Box testing, White-Box testing, and Experienced-Based testing. Black-Box testing is functional testing based on the software requirements and specifications. White-Box testing is where the tester has access to the code and bases tests on the structure of the code. Experience-based testing includes exploratory testing and error guessing, based on the tester's previous experience and on previous projects.
+
+Test Management
+
+This section covers tester independence, and what to include in a test plan, a defect report and a test summary report. It also covers what tasks the testers and test leads are responsible for in the project.
+
+Tools for Software Testing
+
+This section covers different tools available for testing. When first introducing a new tool a pilot project is useful to learn more about the tool and how it would fit into existing processes.
