@@ -15,8 +15,16 @@ This site consists of a list of technologies we have learnt during training at S
 We were given 24 hours to complete this website, we did this in sprints with Ali coordinating everything and defining the stucture of the day in out basic scrum meeting.
 
 ### How to open the site
+
+### Online
+
+https://eng10miniproj.herokuapp.com/
+
+### Locally:
+
 Requirements: Postgresql, rails
 Clone or download the files navigate to the folder, then in terminal:
+
 1. bundle
 2. rails db:create
 3. rails db:migrate
