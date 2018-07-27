@@ -43,7 +43,7 @@ It runs automated acceptance tests written in a behavior-driven development (BDD
 Central to the Cucumber BDD approach is its plain language parser called Gherkin. Gherkin is a simple
 set of grammar rules that makes plain text structured enough for Cucumber to understand. The scenario above
 is written in Gherkin."})
-Subject.create({title: "", logo: "", simg: "", summary:""})
+Subject.create({title: "Rspec", logo: "rspec_logo.png", simg: "", summary:"RSpec is a testing tool for Ruby code, created for Behaviour Driven Development (BDD) but it can be used to guide Test Driven Development. The idea of Test Driven Development is to write failing tests first and write the minimum amount of code to make the tests pass. Once the tests pass, the developer then refactors the code to keep it as simple as possible without making the test fail."})
 
 
 #---------Topics------------
@@ -283,7 +283,7 @@ Topic.create(name: "Use", content: "It uses very semantic method names and funct
 A cheat sheet for its functions can be found \"<a href=\"https://devhints.io/capybara\">here</a>\".\"", timg: "", subject_id: "12")
 
 #Cucumber
-Topic.create(name: "install and start topic", content: "Create a Gemfile with the following contents:
+Topic.create(name: "Install and start topic", content: "Create a Gemfile with the following contents:
 
 source \"https://rubygems.org\"
 
@@ -316,5 +316,6 @@ Then(\"I should be told Yeah\") do
   expect(@actual_answer).to eq(\"Yeah\")
 end", timg: "", subject_id: "13")
 
-
-Topic.create(name: "", content: "", timg: "", subject_id: "14")
+#Rspec
+Topic.create(name: "Encapsulation", content: "RSpec has a way to encapsulate what you’re testing via the ‘describe’ block and the ‘context’ block. In unit testing, ‘describe’ can be used to describe the behaviour of a class. ‘Describe’ can be seen as a group of tests. The tests are written in the ‘it’ block and these are the individual tests that are written to test a specific part of the class. The ‘describe’, ‘context’ and ‘it’ blocks are just Ruby blocks which end with do/end keywords. ‘Context’ can accept class names and string arguments and is used as a block as well. The ‘it’ keyword is used to describe an individual test case and it can also accept class names and string arguments. It should be used with the block argument with do/end Ruby code block. The string argument uses the word should and is meant to describe what specific behaviour should happen in the it block.", timg: "", subject_id: "14")
+Topic.create(name: "Installation", content: "RSpec is a gem so it can be installed in a few different ways. RSpec can be installed using the ‘gem install rspec’ command on your OS terminal. Or it can be installed by adding ‘gem rspec’ in the project gemfile and running the ‘bundle’ command on your project.", timg: "", subject_id: "14")
