@@ -1,0 +1,7 @@
+Subject: XML
+Summary: XML stands for eXtensible Markup Language. XML was designed to store and transport data whilst being be both human and machine-readable.
+
+name: "Parsing"
+The XML DOM (Document Object Model) defines the properties and methods for accessing and editing XML.
+However, before an XML document can be accessed, it must be loaded into an XML DOM object.
+All modern browsers have a built-in XML parser that can convert text into an XML DOM object.
