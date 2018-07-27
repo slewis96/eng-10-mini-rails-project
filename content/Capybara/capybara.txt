@@ -1,0 +1,42 @@
+Capybara
+
+Capybara is a web-based test automation software that simulates scenarios for user stories and automates web application testing for behavior-driven software development.
+
+It simply provides a high level and very user friendly language to use when testing with ruby. It uses very semantic method names and functions to turn complicated code like 'find_element(:id, 'example').click' into intuitive and shorter phrases that would be meaningful to a non-programmer like 'click_on('example')'.
+
+topic 1 - Integration with other tools
+It is a part of the Cucumber testing framework written in the Ruby programming language that simulates various aspects of a web browser from the perspective of a real user.
+
+Capybara is a library/gem built to be used on top of an underlying web-based driver. It offers a user-friendly DSL (Domain Specific Language) which is used to describe actions that are executed by the underlying web driver.
+
+It has a few supported drivers:
+
+  Selenium-webdriver
+  Capybara-webkit
+  Rack::test
+
+topic 2 - Initialisation
+To use Capybara you need to install the gem 'capybara' and require it in your ruby program files.
+
+require 'capybara'
+
+Capybara DSL is a part of the capybara gem which
+require "capybara/dsl"
+
+The below code is an example of capybara being used in an rspec spec_helper file.
+
+Capybara.register_driver :chrome do |app|
+  Capybara::Selenium::Driver.new(app,:browser => :chrome)
+end
+
+Capybara.configure do |config|
+  config.default_max_wait_time = 10
+  config.ignore_hidden_elements = false
+  config.default_driver = :chrome
+end
+
+topic 3 - Use
+
+ It uses very semantic method names and functions to turn complicated code like 'find_element(:id, 'example').click' into intuitive and shorter phrases that would be meaningful to a non-programmer like 'click_on('example')'
+
+ A cheat sheet for its functions can be found "<a href="https://devhints.io/capybara">here</a>"."
